@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Name=dwm
 Comment=Dynamic Window Manager
-Exec=dwm
+Exec=startdwm
 Icon=dwm
 Type=XSessions
 
