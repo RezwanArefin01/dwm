@@ -52,7 +52,7 @@ install: all
 uninstall:
 	rm -f ${DESTDIR}${PREFIX}/bin/dwm\
 		${DESTDIR}${MANPREFIX}/man1/dwm.1\
-		${DESTDIR}${PREFIX}/bin/startdwm
+		${DESTDIR}${PREFIX}/bin/startdwm \
 		/usr/share/xsessions/dwm.desktop
 
 .PHONY: all options clean dist install uninstall
